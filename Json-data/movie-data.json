@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Spirited Away",
+    "genre": "Animation & Fantasy",
+    "genre_url": "https://www.imdb.com/search/title/?genres=animation,fantasy&explore=genres&title_type=feature",
+    "poster_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUhcxBy7msWBIrxRvKnczoXV61Vd6kqP5H2Kh3m2U8MMG15JIj",
+    "about": "A young girl named Chihiro becomes trapped in a mysterious spirit world after her parents are turned into pigs. She must navigate this magical realm, working in a bathhouse for spirits, in order to save her parents and return to the human world."
+  },
+  {
+    "id": 2,
+    "title": "My Neighbor Totoro",
+    "genre": "Animation & Family",
+    "genre_url": "https://www.imdb.com/list/ls023629787/",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/0/02/My_Neighbor_Totoro_-_Tonari_no_Totoro_%28Movie_Poster%29.jpg",
+    "about": "Two sisters move to the countryside and discover friendly forest spirits living nearby, including the giant, cuddly Totoro. As they adjust to rural life and their mother's illness, they find comfort and adventure in their magical encounters."
+  },
+  {
+    "id": 3,
+    "title": "Howl's Moving Castle",
+    "genre": "Fantasy & Romance",
+    "genre_url": "https://www.imdb.com/search/title/?title_type=feature&genres=fantasy,romance",
+    "poster_url": "https://upload.wikimedia.org/wikipedia/en/a/a0/Howls-moving-castleposter.jpg",
+    "about": "Sophie, a young woman turned into an old lady by a witch’s curse, finds refuge in the magical, walking castle of a mysterious wizard named Howl. As war looms, she discovers Howl’s secrets and her own strength, helping to break the curse and bring peace."
+  },
+  {
+    "id": 4,
+    "title": "Kiki's Delivery Service",
+    "genre": "Animation & Coming Out Of Age",
+    "genre_url": "https://www.imdb.com/list/ls083926658/",
+    "poster_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTv-dJ4RUUqV6KDSM9z7lbRuhh1ypBCh_RSnb0mo82jdTwdZmTd",
+    "about": "A 13-year-old witch named Kiki moves to a seaside town to begin her training and start a delivery service. As she faces self-doubt and growing up, she learns to believe in herself and her abilities with the help of new friends and experiences."
+  },
+  {
+    "id": 5,
+    "title": "Ponyo",
+    "genre": "Animation & Adventure",
+    "genre_url": "https://www.imdb.com/search/title/?title_type=feature&genres=animation,adventure",
+    "poster_url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSbVuwwDSGgqLcAFnaAZXADDU2nXhZzAL4UxPQ-TBd9UNM4Wy25",
+    "about": "A goldfish named Ponyo escapes her underwater home and is rescued by a young boy named Sosuke. As Ponyo transforms into a human, their bond grows, but her magical origins threaten to upset the balance of nature unless she returns to the sea."
+  }
+]
