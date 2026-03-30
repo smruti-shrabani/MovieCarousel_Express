@@ -1,7 +1,7 @@
 const express = require("express");
-var cors = require('cors')
-import bodyParser from "body-parser";
-import pg from "pg";
+const cors = require('cors')
+const bodyParser = require("body-parser");
+const pg = require("pg");
 
 const db = new pg.Client({
   user: "postgres",
@@ -55,6 +55,7 @@ db.query("SELECT * FROM movies_data", (err, res) => {
 
 
 // Middleware
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
@@ -65,12 +66,16 @@ app.get("/",(req,res)=>
 })
 
 app.get("/movies", (req, res) => {
-  res.send(movies);
+  if (movies.length === 0) {
+    res.status(500).send({ msg: "Failed to fetch movies from the database." });
+  } else {
+    res.send(movies);
+  }
 });
 
 app.get("/movies/:id", (req, res) => {
   const movieId = req.params.id;
-  const searchData = data.find((i) => i.id == movieId);
+  const searchData = movies.find((i) => i.id == movieId);
   if (searchData) {
     res.send(searchData);
   } else {
@@ -78,6 +83,5 @@ app.get("/movies/:id", (req, res) => {
     res.send({msg:"No data with this ID"});
   }
 });
-
 
 module.exports = app;
